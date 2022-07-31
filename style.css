@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+    font-family: "verdana";
+}
+
+
+
+.cabecalho {
+    color: white;
+    background-color: blueviolet;
+    height: 50px;
+    text-align: justify;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    margin:  0 0 0 80px;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex; 
+}
+
+.menu__principal a {
+    color: darkmagenta;
+    padding: .5rem;
+    font-weight: 400;
+    margin-right: .5rem;
+    background-color: #fdfdfd;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.capa img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.conteudo__principal{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: 600;
+    margin: 2rem 0 ;
+}
+
+.paragrafos{
+    line-height: 2.5rem;
+}
+
+.logo__warner {
+    width: 75vw;
+}
+
+.imagens__serie{
+    overflow-x:scroll;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.imagens__serie img{
+    width: 30vw;
+    box-shadow: 10px 10px 12px 1px black;
+    margin: 0 15px;
+
+}
+
+footer {
+    height: 3rem;
+    background-color: darkmagenta;
+    margin: 1rem 0 0 0;
+    padding:1rem;
+    text-align: center;
+    color: #fdfdfd;
+}
